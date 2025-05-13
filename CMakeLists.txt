@@ -1,0 +1,16 @@
+add_executable(image_processor
+    image_processor.cpp
+    args/args.cpp
+    bmp/loader.cpp
+    bmp/dumper.cpp
+    Image/color.cpp
+    Image/image.cpp
+    filters/filter_registry.cpp
+    filters/crop_filter.cpp
+    filters/grayscale.cpp
+    filters/negative_filter.cpp
+    filters/sharp.cpp
+    filters/edge_filter.cpp
+    filters/blur.cpp
+    filters/mosaic.cpp
+)
